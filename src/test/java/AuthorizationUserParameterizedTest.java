@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 @RunWith(Parameterized.class)
-public class AuthorizationUserParameterizedTest implements UserData {
+public class AuthorizationUserParameterizedTest {
 
     private ClientStellarBurgers clientStellarBurgers;
 

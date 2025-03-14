@@ -12,7 +12,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class GetOrdersUserTest implements UserData {
+public class GetOrdersUserTest {
 
     private ClientStellarBurgers clientStellarBurgers;
     private String accessToken;

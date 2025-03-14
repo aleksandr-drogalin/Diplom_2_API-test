@@ -9,7 +9,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class CreateNewUserTest implements UserData{
+public class CreateNewUserTest {
 
     private ClientStellarBurgers clientStellarBurgers;
 

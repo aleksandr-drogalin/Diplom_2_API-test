@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 @RunWith(Parameterized.class)
-public class ReplaceUserParameterizedTest implements UserData {
+public class ReplaceUserParameterizedTest {
 
     private ClientStellarBurgers clientStellarBurgers;
     private static String accessToken;
