@@ -20,7 +20,7 @@ public class GetOrdersUserParameterizedTest {
     private ClientStellarBurgers clientStellarBurgers;
     private static String accessToken;
 
-    //поля с тестовыми данными
+    // поля с тестовыми данными
     private final int countCreatedOrders;
     private final int expectedReturnedOrders;
     private final String testName;

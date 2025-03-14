@@ -18,7 +18,7 @@ public class ReplaceUserParameterizedTest {
     private ClientStellarBurgers clientStellarBurgers;
     private static String accessToken;
 
-    //поля с тестовыми данными
+    // поля с тестовыми данными
     private final ReplaceUser replaceUser;
     private final String expectedEmail;
     private final String expectedName;

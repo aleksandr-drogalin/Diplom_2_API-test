@@ -16,7 +16,7 @@ public class AuthorizationUserTest {
     @Before
     public void setUp() {
         CreateNewUser createNewUser = new CreateNewUser(UserData.REGISTRATION_EMAIL, UserData.REGISTRATION_PASSWORD, UserData.REGISTRATION_NAME);
-        //создание пользователя
+        // создание пользователя
         clientStellarBurgers = new ClientStellarBurgers();
         clientStellarBurgers.requestCreateNewUser(createNewUser);
     }

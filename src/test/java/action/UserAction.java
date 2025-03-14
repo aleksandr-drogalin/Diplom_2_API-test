@@ -9,7 +9,7 @@ import static org.hamcrest.CoreMatchers.notNullValue;
 
 public class UserAction {
 
-    //получить accessToken
+    // получить accessToken
     public static String getAccessToken(Response response) {
         User user = response.body().as(User.class); //десериализация ответа в объект
         return user.getAccessToken(); //возвращение accessToken

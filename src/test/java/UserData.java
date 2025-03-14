@@ -7,7 +7,7 @@ public interface UserData {
 
     //константы для авторизации с невалидными пользовательскими данными
     public static final String UNCORRECT_EMAIL = "ivan68rus@gmail.com";
-    public static final String UNCORRECT_PASSWORD = "zxc123";
+    public static final String UNCORRECT_PASSWORD = "asd123";
 
     //константы для замены пользовательских данных
     public static final String REPLACE_EMAIL = "semen62rus@gmail.com";

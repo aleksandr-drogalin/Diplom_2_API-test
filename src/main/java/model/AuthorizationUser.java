@@ -2,7 +2,7 @@ package model;
 
 public class AuthorizationUser {
 
-    //класс для сериализации в json при запросе авторизации пользователя
+    // класс для сериализации в json при запросе авторизации пользователя
 
     private String email;
     private String password;

@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Ingredients {
 
-    //класс для десериализации из json при получении данных об ингредиентах
+    // класс для десериализации из json при получении данных об ингредиентах
 
     private boolean success;
     private List<IngredientsData> data;

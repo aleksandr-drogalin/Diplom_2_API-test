@@ -14,7 +14,7 @@ import static org.hamcrest.CoreMatchers.notNullValue;
 
 public class CreateOrderAction {
 
-    @Step("При успешном запросе возвращается номер заказа")
+    @Step("При успешном запросе возвращается номер заказа ")
     public static void checkNumberOrder(Response response) {
         response.then().assertThat().body("order.number", notNullValue());
     }
@@ -24,7 +24,7 @@ public class CreateOrderAction {
         response.then().assertThat().body("name", notNullValue());
     }
 
-    //получить массив с валидным хешем
+    // получить массив с валидным хешем
     public static String[] getHashIngredients(ClientStellarBurgers clientStellarBurgers) {
         Ingredients ingredients = clientStellarBurgers.getIngredients().as(Ingredients.class); //ответ как объект класса
         List<IngredientsData> data = ingredients.getData(); //получение списка ингредиентов

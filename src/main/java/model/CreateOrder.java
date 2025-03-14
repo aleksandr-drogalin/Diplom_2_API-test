@@ -2,7 +2,7 @@ package model;
 
 public class CreateOrder {
 
-    //класс для сериализации в json при запросе создания заказа
+    // класс для сериализации в json при запросе создания заказа
 
     private String[] ingredients;
 

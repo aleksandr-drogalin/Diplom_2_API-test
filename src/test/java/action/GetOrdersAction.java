@@ -29,7 +29,7 @@ public class GetOrdersAction {
         OrdersUser ordersUser = response.as(OrdersUser.class);
         List<OrdersUserOrders> ordersUserOrders = ordersUser.getOrders();
         List<String> updatedAtList = new ArrayList<>(); //создание списка времени изменения заказов
-        //заполнение списка времени изменения заказов
+        // заполнение списка времени изменения заказов
         for(OrdersUserOrders element:ordersUserOrders) {
             updatedAtList.add(element.getUpdatedAt());
         }

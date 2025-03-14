@@ -13,7 +13,7 @@ public class CreateNewUserParameterizedTest {
 
     private ClientStellarBurgers clientStellarBurgers;
 
-    //поля с тестовыми данными
+    // поля с тестовыми данными
     private final CreateNewUser createNewUser;
     private final String testName;
 

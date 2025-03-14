@@ -16,7 +16,7 @@ public class AuthorizationUserParameterizedTest {
 
     private ClientStellarBurgers clientStellarBurgers;
 
-    //поля с тестовыми данными
+    // поля с тестовыми данными
     private final AuthorizationUser authorizationUser;
     private final String testName;
 

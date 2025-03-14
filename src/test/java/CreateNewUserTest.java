@@ -23,7 +23,7 @@ public class CreateNewUserTest {
     public void successfulCreateUser(){
         CreateNewUser createNewUser = new CreateNewUser(UserData.REGISTRATION_EMAIL, UserData.REGISTRATION_PASSWORD, UserData.REGISTRATION_NAME);
         Response response = clientStellarBurgers.requestCreateNewUser(createNewUser);
-        GeneralAction.checkResponseCode(response, 200); //проверка кода ответа
+        GeneralAction.checkResponseCode(response, 200); // проверка кода ответа
         GeneralAction.checkIsSuccess(response, true); //проверка статуса success
         UserAction.checkUserEmail(response, UserData.REGISTRATION_EMAIL); //вернулся email пользователя
         UserAction.checkUserName(response, UserData.REGISTRATION_NAME); //вернулось имя пользователя
