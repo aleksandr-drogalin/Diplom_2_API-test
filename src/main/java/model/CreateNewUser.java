@@ -2,7 +2,7 @@ package model;
 
 public class CreateNewUser {
 
-    // класс для сериализации в json при запросе создания нового пользователя
+    //класс для сериализации в json при запросе создания нового пользователя
 
     private String email;
     private String password;

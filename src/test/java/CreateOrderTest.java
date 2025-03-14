@@ -21,7 +21,7 @@ public class CreateOrderTest {
     @Before
     public void setUp() {
         clientStellarBurgers = new ClientStellarBurgers();
-        // создание пользователся
+        //создание пользователся
         CreateNewUser createNewUser = new CreateNewUser(UserData.REGISTRATION_EMAIL, UserData.REGISTRATION_PASSWORD, UserData.REGISTRATION_NAME);
         clientStellarBurgers.requestCreateNewUser(createNewUser);
         //авторизация и получение токена

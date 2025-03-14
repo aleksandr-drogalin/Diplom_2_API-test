@@ -4,7 +4,7 @@ import java.util.List;
 
 public class OrdersUser {
 
-    // класс для десериализации из json при получении заказов конкретного пользователя
+    //класс для десериализации из json при получении заказов конкретного пользователя
 
     private String success;
     private List<OrdersUserOrders> orders;

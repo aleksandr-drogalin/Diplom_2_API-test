@@ -2,7 +2,7 @@ package model;
 
 public class IngredientsData {
 
-    // класс для десериализации из json при получении данных об ингредиентах, находится внутри data класса Ingredients
+    //класс для десериализации из json при получении данных об ингредиентах, находится внутри data класса Ingredients
 
     private String _id;
     private String name;

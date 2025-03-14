@@ -24,7 +24,7 @@ public class CreateOrderAction {
         response.then().assertThat().body("name", notNullValue());
     }
 
-    // получить массив с валидным хешем
+    //получить массив с валидным хешем
     public static String[] getHashIngredients(ClientStellarBurgers clientStellarBurgers) {
         Ingredients ingredients = clientStellarBurgers.getIngredients().as(Ingredients.class); //ответ как объект класса
         List<IngredientsData> data = ingredients.getData(); //получение списка ингредиентов

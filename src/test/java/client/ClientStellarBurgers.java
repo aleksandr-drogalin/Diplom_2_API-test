@@ -13,7 +13,7 @@ import static io.restassured.RestAssured.given;
 public class ClientStellarBurgers {
 
     private static final String BASE_URI = "https://stellarburgers.nomoreparties.site";
-    private static final String END_URI_CREATE_NEW_USER = "/api/auth/register"; // эндпоинт создания нового пользователя
+    private static final String END_URI_CREATE_NEW_USER = "/api/auth/register"; //эндпоинт создания нового пользователя
     private static final String END_URI_DELETE_USER = "/api/auth/user";//эндпоинт удаления пользователя
     private static final String END_URI_AUTHORIZATION_USER = "/api/auth/login";//эндпоинт авторизации пользователя
     private static final String END_URI_REPLACE_USER="/api/auth/user"; //эндпоинт редактирования профиля

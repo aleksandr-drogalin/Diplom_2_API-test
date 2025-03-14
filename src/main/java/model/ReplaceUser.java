@@ -2,7 +2,7 @@ package model;
 
 public class ReplaceUser {
 
-    // класс для сериализации в json при запросе изменения пользовательских данных
+    //класс для сериализации в json при запросе изменения пользовательских данных
 
     private String email;
     private String password;

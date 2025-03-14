@@ -11,6 +11,6 @@ public interface UserData {
 
     //константы для замены пользовательских данных
     public static final String REPLACE_EMAIL = "semen62rus@gmail.com";
-    public static final String REPLACE_PASSWORD = "asd123";
+    public static final String REPLACE_PASSWORD = "zxc123";
     public static final String REPLACE_NAME = "Semen";
 }

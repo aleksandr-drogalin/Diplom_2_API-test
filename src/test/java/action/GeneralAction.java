@@ -7,7 +7,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 
 public class GeneralAction {
 
-    // вывести ответ на запрос в консоль
+    //вывести ответ на запрос в консоль
     public static void printResponseBody(Response response) {
         System.out.println(response.body().asString());
     }
