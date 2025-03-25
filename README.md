@@ -1,5 +1,5 @@
 <h1> Тестирование API учебного приложения "Stellar Burgers"</h1>
-<p> 2-я часть дипломной работы, на курсе Яндекс Практикум по специальности "Автоматизатор тестирования на java"</p>
+<p> 2-я часть дипломной работы на курсе Яндекс Практикум по специальности "Автоматизатор тестирования на java"</p>
 <h4> Сайт тестируемого приложения: https://stellarburgers.nomoreparties.site/ </h4>
 <h4> Документация API: https://code.s3.yandex.net/qa-automation-engineer/java/cheatsheets/paid-track/diplom/api-documentation.pdf </h4>
 <h4> Задание: </h4>
